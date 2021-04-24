@@ -1,0 +1,126 @@
+*{margin: 0px; 
+    
+padding: 0px;}
+
+.clr{ clear: both;}
+
+ul,ol{list-style: none;}
+
+a{text-decoration: none;}
+/*basic css ends*/
+
+
+.header{width: 100%; background: #00ffe2;}
+
+.content{width: 1200px; margin: 0;}
+
+.header .logo{width: 20%; float: left;}
+
+.header .logo img{width: 50px; margin: auto;}
+
+.header .menu{width: 80%; float: left; text-align: right;}
+
+.header .menu ul li{display: inline;}
+
+.header .menu ul li a{font-size: 20px; color: darkgreen; line-height: 50px; padding: 0 30px; transition: color 0.5s linear; }
+
+.header .menu ul li a.active{color: crimson;}
+
+
+.sector1{background-image: url(picbg.jpg);}
+
+
+
+
+
+
+
+
+
+
+#head1{ background-image: url(image/pic1.jpg); color: #715713; font-size:30px;
+    
+    height: 200px; width: 1350px; font-family: 'Satisfy'; border-radius: 30px;}
+
+
+
+
+
+
+#head2{ font-size: 30px; color: #260abc;}
+
+#head3{ font-size: 35px; color: darkgreen; text-align: center; font-family: 'Niconne', cursive;}
+
+#sector1{ font-size: 20px; text-align: center; color: blue;}
+
+#section2{ font-size: 20px; text-align: center; color: brown; font-family: 'Sedgwick Ave Display', cursive;}
+
+#section2 button{ background: #00d8ff; color: darkmagenta; border: 20px; padding: 10px; font-size: 20px; border-radius: 10px;}
+
+#hand1{ height: 400px; width: 600px; background: #15ce0e}
+
+.hand1.head1{ height: 200px; width: 300px; background: #153bdd}
+
+.banner{padding: 100px 0; text-align: center;}
+
+.banner img{ transform: scale(1); transition: transform 2s ease; }
+
+.banner img:hover{transform: scale(0.5);
+                  -webkit-transform: scale(0.5);
+                  -moz-transform: scale(0.5);
+                  -o-transform: scale(0.5);
+                  -ms-transform: scale(0.5);}
+                                 
+
+.new{background: #003bff; padding: 50px 20px; text-align: center; width: 1300px;}
+
+.new:hover h1{ color: chocolate;}
+.new p:hover{color: #d8d82a; }
+
+
+.new2{padding: 100px 0; text-align: center; font-size: 50px;}
+
+.new2 h1{ transform: scale(1); transition: transform 2s linear;}
+
+.new2 h1:hover{transform: scale(0.5);}
+
+#old { text-align: center; padding: 100px;}
+
+#old img {transform: scale(1); transition: transform 2s linear; height: 200px; width: 800px;}
+
+#old img:hover{transform: skewX(50deg);}
+
+
+#old2 { text-align: center; padding: 100px;}
+
+#old2 img {transform: scale(1); transition: transform 2s linear; height: 200px; width: 800px;}
+
+
+
+
+.level{background-image: url(image/pic6.jpg); height: 200px; width: 300px; position: relative; left: 20px; bottom: 50px; text-align: center}
+.level.img{resize: inherit;}
+.level .level1{background-image: url(image/pic7.png); height: 200px; width: 300px; position: absolute; left: 327px; top: 0px; border-radius: 50%;}
+
+.level .level2{background-image: url(image/pic14.jpg); height: 200px; width: 300px; position:absolute; left: 654px; top: 0px;}
+
+.level .level3{background-image: url(image/pic9.png); height: 200px; width: 300px; position: absolute; top: 0px; left: 985px; border-radius: 50%;}
+
+.level .level4{background-image: url(image/pic5.jpg); height: 200px; width: 300px; position: absolute; top: 238px; left: 0px; }
+
+.level .level5{background-image: url(image/pic10.jpg); height: 200px; width: 300px; position: absolute; top: 238px; left:327px; border-radius: 50%;}
+
+.level .level6{background-image: url(image/pic11.jpg); height: 200px; width: 300px; position: absolute; top: 238px; left: 654px;}
+
+.level .level7{ background-image: url(image/pic12.jpg); height: 200px; width: 300px; position: absolute; top: 238px; left: 985px; border-radius: 50%;}
+
+
+#lol h1{ padding: 50px; text-align: center; font-size: 80px;}
+
+#lol h1{transform: scale(1); transition: transform 3s linear;}
+
+#lol h1:hover{ transform: scale(0.5)}
+
+
+
+
